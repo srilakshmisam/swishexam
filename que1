@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+long int x,p;
+int y;
+int sum;
+
+scanf("%d,%d",&x,&p);
+sum=x;
+
+while(x>0)
+{
+x=x-((x*p)/100);
+sum+=x;
+}
+
+printf("%d",sum);
+printf("\n");
+
+}
+
+
